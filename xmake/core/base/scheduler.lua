@@ -89,7 +89,8 @@ end
 
 -- is isolated?
 function _coroutine:is_isolated()
-    return self._ISOLATED
+    return true
+    --return self._ISOLATED
 end
 
 -- isolate coroutine environments
